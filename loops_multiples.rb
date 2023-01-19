@@ -18,4 +18,12 @@
 # 20
 
 p "Enter a number:"
+number=gets.chomp
+z=1
+while z<11
+  p z.to_i*number.to_i
+  if z<11
+    z=z+1
+  end 
+end
 

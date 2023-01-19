@@ -14,3 +14,15 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+word=gets.chomp
+z=word.length
+number=1
+while number<z+1
+  p number
+  if number<=z+1
+    number=number+1
+  end 
+end
+p word.to_s + " is " + z.to_s + " letters long!"
+
+
